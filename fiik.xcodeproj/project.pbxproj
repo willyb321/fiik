@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1CC2081DC2A9E400401016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CC2071DC2A9E400401016 /* AppDelegate.swift */; };
+		AE1CC20A1DC2A9E400401016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CC2091DC2A9E400401016 /* ViewController.swift */; };
+		AE1CC20C1DC2A9E400401016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1CC20B1DC2A9E400401016 /* Assets.xcassets */; };
+		AE1CC20F1DC2A9E400401016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1CC20D1DC2A9E400401016 /* Main.storyboard */; };
+		AE1CC21A1DC2A9E400401016 /* fiikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CC2191DC2A9E400401016 /* fiikTests.swift */; };
+		AE1CC2251DC2A9E400401016 /* fiikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CC2241DC2A9E400401016 /* fiikUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE1CC2161DC2A9E400401016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1CC1FC1DC2A9E300401016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1CC2031DC2A9E300401016;
+			remoteInfo = fiik;
+		};
+		AE1CC2211DC2A9E400401016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE1CC1FC1DC2A9E300401016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1CC2031DC2A9E300401016;
+			remoteInfo = fiik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE1CC2041DC2A9E400401016 /* fiik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fiik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1CC2071DC2A9E400401016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1CC2091DC2A9E400401016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE1CC20B1DC2A9E400401016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1CC20E1DC2A9E400401016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE1CC2101DC2A9E400401016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1CC2151DC2A9E400401016 /* fiikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1CC2191DC2A9E400401016 /* fiikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiikTests.swift; sourceTree = "<group>"; };
+		AE1CC21B1DC2A9E400401016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1CC2201DC2A9E400401016 /* fiikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1CC2241DC2A9E400401016 /* fiikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiikUITests.swift; sourceTree = "<group>"; };
+		AE1CC2261DC2A9E400401016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1CC2011DC2A9E300401016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CC2121DC2A9E400401016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CC21D1DC2A9E400401016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1CC1FB1DC2A9E300401016 = {
+			isa = PBXGroup;
+			children = (
+				AE1CC2061DC2A9E400401016 /* fiik */,
+				AE1CC2181DC2A9E400401016 /* fiikTests */,
+				AE1CC2231DC2A9E400401016 /* fiikUITests */,
+				AE1CC2051DC2A9E400401016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE1CC2051DC2A9E400401016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CC2041DC2A9E400401016 /* fiik.app */,
+				AE1CC2151DC2A9E400401016 /* fiikTests.xctest */,
+				AE1CC2201DC2A9E400401016 /* fiikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1CC2061DC2A9E400401016 /* fiik */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CC2071DC2A9E400401016 /* AppDelegate.swift */,
+				AE1CC2091DC2A9E400401016 /* ViewController.swift */,
+				AE1CC20B1DC2A9E400401016 /* Assets.xcassets */,
+				AE1CC20D1DC2A9E400401016 /* Main.storyboard */,
+				AE1CC2101DC2A9E400401016 /* Info.plist */,
+			);
+			path = fiik;
+			sourceTree = "<group>";
+		};
+		AE1CC2181DC2A9E400401016 /* fiikTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CC2191DC2A9E400401016 /* fiikTests.swift */,
+				AE1CC21B1DC2A9E400401016 /* Info.plist */,
+			);
+			path = fiikTests;
+			sourceTree = "<group>";
+		};
+		AE1CC2231DC2A9E400401016 /* fiikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE1CC2241DC2A9E400401016 /* fiikUITests.swift */,
+				AE1CC2261DC2A9E400401016 /* Info.plist */,
+			);
+			path = fiikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE1CC2031DC2A9E300401016 /* fiik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1CC2291DC2A9E400401016 /* Build configuration list for PBXNativeTarget "fiik" */;
+			buildPhases = (
+				AE1CC2001DC2A9E300401016 /* Sources */,
+				AE1CC2011DC2A9E300401016 /* Frameworks */,
+				AE1CC2021DC2A9E300401016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fiik;
+			productName = fiik;
+			productReference = AE1CC2041DC2A9E400401016 /* fiik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE1CC2141DC2A9E400401016 /* fiikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1CC22C1DC2A9E400401016 /* Build configuration list for PBXNativeTarget "fiikTests" */;
+			buildPhases = (
+				AE1CC2111DC2A9E400401016 /* Sources */,
+				AE1CC2121DC2A9E400401016 /* Frameworks */,
+				AE1CC2131DC2A9E400401016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1CC2171DC2A9E400401016 /* PBXTargetDependency */,
+			);
+			name = fiikTests;
+			productName = fiikTests;
+			productReference = AE1CC2151DC2A9E400401016 /* fiikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE1CC21F1DC2A9E400401016 /* fiikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1CC22F1DC2A9E400401016 /* Build configuration list for PBXNativeTarget "fiikUITests" */;
+			buildPhases = (
+				AE1CC21C1DC2A9E400401016 /* Sources */,
+				AE1CC21D1DC2A9E400401016 /* Frameworks */,
+				AE1CC21E1DC2A9E400401016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1CC2221DC2A9E400401016 /* PBXTargetDependency */,
+			);
+			name = fiikUITests;
+			productName = fiikUITests;
+			productReference = AE1CC2201DC2A9E400401016 /* fiikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1CC1FC1DC2A9E300401016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "william blythe";
+				TargetAttributes = {
+					AE1CC2031DC2A9E300401016 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AE1CC2141DC2A9E400401016 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE1CC2031DC2A9E300401016;
+					};
+					AE1CC21F1DC2A9E400401016 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE1CC2031DC2A9E300401016;
+					};
+				};
+			};
+			buildConfigurationList = AE1CC1FF1DC2A9E300401016 /* Build configuration list for PBXProject "fiik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE1CC1FB1DC2A9E300401016;
+			productRefGroup = AE1CC2051DC2A9E400401016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE1CC2031DC2A9E300401016 /* fiik */,
+				AE1CC2141DC2A9E400401016 /* fiikTests */,
+				AE1CC21F1DC2A9E400401016 /* fiikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1CC2021DC2A9E300401016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1CC20C1DC2A9E400401016 /* Assets.xcassets in Resources */,
+				AE1CC20F1DC2A9E400401016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CC2131DC2A9E400401016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CC21E1DC2A9E400401016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1CC2001DC2A9E300401016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1CC20A1DC2A9E400401016 /* ViewController.swift in Sources */,
+				AE1CC2081DC2A9E400401016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CC2111DC2A9E400401016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1CC21A1DC2A9E400401016 /* fiikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CC21C1DC2A9E400401016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1CC2251DC2A9E400401016 /* fiikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE1CC2171DC2A9E400401016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1CC2031DC2A9E300401016 /* fiik */;
+			targetProxy = AE1CC2161DC2A9E400401016 /* PBXContainerItemProxy */;
+		};
+		AE1CC2221DC2A9E400401016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1CC2031DC2A9E300401016 /* fiik */;
+			targetProxy = AE1CC2211DC2A9E400401016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE1CC20D1DC2A9E400401016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE1CC20E1DC2A9E400401016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE1CC2271DC2A9E400401016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE1CC2281DC2A9E400401016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AE1CC22A1DC2A9E400401016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsuperwilly.fiik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE1CC22B1DC2A9E400401016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsuperwilly.fiik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AE1CC22D1DC2A9E400401016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsuperwilly.fiikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiik.app/Contents/MacOS/fiik";
+			};
+			name = Debug;
+		};
+		AE1CC22E1DC2A9E400401016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsuperwilly.fiikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiik.app/Contents/MacOS/fiik";
+			};
+			name = Release;
+		};
+		AE1CC2301DC2A9E400401016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsuperwilly.fiikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fiik;
+			};
+			name = Debug;
+		};
+		AE1CC2311DC2A9E400401016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tehsuperwilly.fiikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fiik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1CC1FF1DC2A9E300401016 /* Build configuration list for PBXProject "fiik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1CC2271DC2A9E400401016 /* Debug */,
+				AE1CC2281DC2A9E400401016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1CC2291DC2A9E400401016 /* Build configuration list for PBXNativeTarget "fiik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1CC22A1DC2A9E400401016 /* Debug */,
+				AE1CC22B1DC2A9E400401016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE1CC22C1DC2A9E400401016 /* Build configuration list for PBXNativeTarget "fiikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1CC22D1DC2A9E400401016 /* Debug */,
+				AE1CC22E1DC2A9E400401016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE1CC22F1DC2A9E400401016 /* Build configuration list for PBXNativeTarget "fiikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1CC2301DC2A9E400401016 /* Debug */,
+				AE1CC2311DC2A9E400401016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1CC1FC1DC2A9E300401016 /* Project object */;
+}
